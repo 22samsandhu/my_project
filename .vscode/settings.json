@@ -1,4 +1,10 @@
 {
-  "cmake.generator": "Ninja",
-  "cmake.sourceDirectory": "${workspaceFolder}"
+  "cmake.generator": "Unix Makefiles",
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.buildArgs": [],
+  "cmake.configureArgs": [],
+  "cmake.environment": {},
+  "cmake.buildEnvironment": {},
+  "cmake.verboseOutput": true
 }
